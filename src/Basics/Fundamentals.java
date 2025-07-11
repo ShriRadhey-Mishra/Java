@@ -68,6 +68,9 @@ public class Fundamentals {
             i++;
         } while (i < 5);  // Basic do while loop
 
+        System.out.println("--------------------------------------------------------");
+
+
     }
 
 //    Function/ Method
