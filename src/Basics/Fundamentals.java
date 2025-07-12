@@ -70,11 +70,24 @@ public class Fundamentals {
 
         System.out.println("--------------------------------------------------------");
 
-
+//        Creating an Object
+        Fundamentals object = new Fundamentals();
+        object.call();  // calling a class method
+        call1();
     }
 
 //    Function/ Method
     public static void show() {
         System.out.println("in show!");
+    }
+
+    //    Normal class method: has to be called by an instance of the class
+    public void call() {
+        System.out.println("Hello!");
+    }
+
+    //    Static method: called without creating an object
+    public static void call1() {
+        System.out.println("Static Hello!");
     }
 }
